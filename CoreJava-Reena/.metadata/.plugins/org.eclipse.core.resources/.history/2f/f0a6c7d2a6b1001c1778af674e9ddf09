@@ -1,0 +1,10 @@
+package abstraction;
+
+public class HouseWife extends Person{
+
+	
+	   public  void doSomething()
+	   {
+		   System.out.println("A HouseWife cooks yummy food");
+	   }
+}

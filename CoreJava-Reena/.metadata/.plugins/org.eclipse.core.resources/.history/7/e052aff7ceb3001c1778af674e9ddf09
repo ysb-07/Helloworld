@@ -1,0 +1,29 @@
+package org;
+
+import java.util.Scanner;
+
+public class ArrayMultiplication {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the size of array");
+		int size = sc.nextInt();
+		System.out.println("Enter the values in array");
+		for(int i=0;i<size;i++)
+		{
+			int nums=sc.nextInt();
+			
+ 		}
+		
+		System.out.println("After multiplication");
+		
+		for(int i=0;i<size;i++)
+		{
+			int ans=i*2;
+			System.out.println(ans);
+			
+ 		}	
+
+	}
+
+}

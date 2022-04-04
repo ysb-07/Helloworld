@@ -1,0 +1,23 @@
+package org;
+
+public class SomeDataOperations {
+
+	public static void main(String[] args) {
+		
+		int x = 10;
+		int y= 20;
+		long m= 123456l;
+		
+		int z= x+y;
+		System.out.println(z);
+		System.out.println(x+y);
+           int n= x+m;
+           System.out.println(n);
+           
+           float f=12.445f;
+           double d=45.3;
+           float ff = f +(float)d;
+           System.out.println(ff);
+	}
+
+}

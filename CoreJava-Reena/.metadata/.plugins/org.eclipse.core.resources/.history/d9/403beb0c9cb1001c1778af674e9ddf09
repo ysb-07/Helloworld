@@ -1,0 +1,27 @@
+package oops;
+
+public class Person {
+	//Encapsulation
+	//Binding the data with code
+	//Keep the class as private as possible
+	
+	private String name;
+	private int age;
+	private String address;
+	
+	public Person()
+	{
+		
+	}
+	public void setName(String name)
+	{
+		this.name=name;
+	}
+	
+	public String getname()
+	{
+		return name;
+	}
+	
+	
+}
