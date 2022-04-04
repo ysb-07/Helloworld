@@ -1,0 +1,42 @@
+package whileDoWhile;
+
+import java.util.Scanner;
+
+public class SimpleInterestDoWhile {
+
+	public static void main(String[] args) {
+		
+		double principal;
+		 int rate;
+		 principal = 1000;
+		 rate=2;
+		 double SI;
+		Scanner sc=new Scanner(System.in);
+		  System.out.println("enter time");
+		 int time = sc.nextInt();
+		  
+		 
+		 SI = (principal * rate * time)/100;
+		 
+		  
+		  System.out.println("The Simple Interest is "  + SI);
+		 
+		  do
+		  {
+			  time++;
+			  SI = (principal * rate * time)/100;
+			 
+			  
+			
+			  
+		  }while(SI<100000);
+		  
+		  System.out.println("time taken"+time);
+		  
+		
+		  
+		  
+		  
+	}
+
+}

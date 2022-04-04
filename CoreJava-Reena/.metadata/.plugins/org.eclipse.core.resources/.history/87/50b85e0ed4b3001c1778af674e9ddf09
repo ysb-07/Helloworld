@@ -1,0 +1,43 @@
+package org;
+
+import java.util.Scanner;
+
+public class AdditionOfTwoDimension {
+
+	public static void main(String[] args) {
+		int[][] one=new int[3][3];
+		int[][] two=new int[3][3];
+		int[][] sum=new int[3][3];
+		System.out.println("enter the values of array");
+		Scanner sc=new Scanner(System.in);
+		for(int i=0;i<3;i++)
+		{
+			for(int j=0;j<3;j++)
+			{
+				one[i][j]=sc.nextInt();
+			}
+		}
+		for(int i=0;i<3;i++)
+		{
+			for(int j=0;j<3;j++)
+			{
+				two[i][j]=sc.nextInt();
+			}
+		}
+		System.out.println("after addition of arrays");
+		for(int i=0;i<3;i++)
+		{
+			for(int j=0;j<3;j++)
+			{
+				sum[i][j]=one[i][j]+two[i][j];
+				System.out.print(sum[i][j]+"");
+				System.out.println();
+			}
+			
+		
+		
+		}
+		
+	}
+
+}
