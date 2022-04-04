@@ -1,8 +1,7 @@
-public class abc
+public class Helloworld
 {
 public static void main(String[] args)
 {
-int sum=10+20;
-System.out.println(sum);
+System.out.println("100");
 }
 }
