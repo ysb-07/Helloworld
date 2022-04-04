@@ -1,0 +1,5 @@
+package oopsInterface;
+
+public interface Player {
+
+}

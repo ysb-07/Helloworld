@@ -1,0 +1,20 @@
+package Inheritence;
+
+public class Employee extends Person {
+
+	
+public int empId;
+public Employee()
+
+{
+	System.out.println("Employee constructor");
+}
+
+public Employee(String name,int age,String address,int empId)
+{
+	super(name,age,address);
+	this.empId=empId;
+	System.out.println(age);
+	
+}
+}

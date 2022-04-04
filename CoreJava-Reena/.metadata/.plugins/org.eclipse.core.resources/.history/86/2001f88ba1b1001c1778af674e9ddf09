@@ -1,0 +1,23 @@
+
+package Inheritence;
+
+public class Person {
+	//Inheritence
+	
+	
+	private String name;
+	private int age;
+	private String address;
+	
+	public Person()
+	{
+		this.name=name;
+		this.age=age;
+		this.address=address;
+		System.out.println("Person Constructor");
+	}
+	
+	
+	
+	
+}

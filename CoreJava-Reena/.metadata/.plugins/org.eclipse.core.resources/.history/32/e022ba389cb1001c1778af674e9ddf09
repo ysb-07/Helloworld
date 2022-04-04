@@ -1,0 +1,12 @@
+package encapsulation.copy;
+
+public class TestOOPs {
+
+	public static void main(String[] args) {
+		Person P1=new Person();
+		
+		P1.setName("Reena");
+	System.out.println(P1.getname());
+	}
+
+}

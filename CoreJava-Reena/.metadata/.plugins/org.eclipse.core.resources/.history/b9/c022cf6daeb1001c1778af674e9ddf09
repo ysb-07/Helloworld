@@ -1,0 +1,8 @@
+package oopsInterface;
+
+public class Employee extends Person implements Artist,Player{
+	public void doSomething() {
+		System.out.println("an employee works");
+	}
+
+}

@@ -1,0 +1,39 @@
+package org;
+
+import java.util.Scanner;
+
+public class AcceptInput {
+
+	public static void main(String[] args) {
+//		Scanner sc=new Scanner(System.in);
+//		  System.out.println("Enter your name");
+//		  String name = sc.next();
+//		  
+//		  System.out.println("Enter your address");
+//		  String address = sc.next();
+//		  
+//		  System.out.println("Enter your age");
+//		  int age = sc.nextInt();
+//		  
+//		  System.out.println("Enter the time");
+//		  double time = sc.nextDouble();
+//		  
+//		  System.out.println("Hello "+name +" Your address is "+ address+ "You are" +age +"old");
+//		  System.out.println("The current time is" +time);
+		  
+		  
+		  int a=5;
+		  //a++
+		  
+		  int d = ++a;
+		  int b = a++;
+		  int c = a;
+		  System.out.println(b);
+		  System.out.println(c);
+		  System.out.println(d);
+		  
+		  
+		  
+	}
+
+}
